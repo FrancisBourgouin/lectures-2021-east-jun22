@@ -1,0 +1,35 @@
+body,html{
+  margin:0;
+}
+.App {
+  text-align: center;
+}
+h1,h2{
+  margin:0
+}
+header{
+  padding:1em;
+  background:black;
+  color:white;
+  margin-bottom:2em;
+}
+
+section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+  article{
+    width:30vw;
+    border:1px solid black;
+    padding:1em;
+    margin:1em;
+
+    h1{
+      font-size:2em;
+    }
+    h2{
+      font-size:1.2em;
+    }
+  }
+}
