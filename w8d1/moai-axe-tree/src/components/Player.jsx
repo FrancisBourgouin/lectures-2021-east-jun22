@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 export default function Player(props) {
   const { setPlayerItem } = props
@@ -30,4 +31,9 @@ export default function Player(props) {
       </div>
     </section>
   )
+}
+
+Player.propTypes = {
+  /** SetPlayerItem is to set the player item when they click */
+  setPlayerItem: PropTypes.number
 }

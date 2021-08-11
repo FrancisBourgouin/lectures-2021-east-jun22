@@ -32,7 +32,7 @@ export default function Game(props) {
     <div>
       <main className="game">
         <Computer isCheating={isCheating} gameCheating={gameCheating} />
-        <Player setPlayerItem={setPlayerItem} />
+
       </main>
       <Result message={result && result.message} />
     </div>
